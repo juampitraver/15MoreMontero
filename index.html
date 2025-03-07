@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Morena - 15 Años</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@1,200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Portada -->
+  <header class="fullHeight">
+    <div class="container text-center container-title">
+      <p class="title">Reserva la fecha</p>
+      <br>
+      <p class="title dancing-script">Mis 15 Años</p>
+      <br>
+      <p class="title" style="font-weight: bold;">More</p>
+      <br>
+      <p class="date">19-04-2025</p>
+      <p style="font-weight: bold;" class="date" id="countDown"></p>
+    </div>
+  </header>
+
+  <!-- Sección de Contenidos -->
+  <main class="container-fluid cardSection">
+    <!-- Sección Fiesta -->
+    <section class="row my-5">
+      <div class="col d-flex flex-column align-items-center">
+        <img src="assets/image/pista-de-baile.png" alt="Chapel">
+        <h1 class="card-title">FIESTA</h1>
+        <p class="card-text">
+         Te espero el sábado 19 de abril a las 21:30hs
+        </p>
+        <h3 class="card-title">Ubicación</h3>
+        <p class="card-text">
+          Vicente Forestieri 5782<br>
+          B° Villa El Libertador
+        </p>
+        <a class="btn btn-custom mt-3" target="_blank" href="https://www.google.com/maps?q=-31.4802076,-64.2252533&z=17&hl=en" role="button">
+          CÓMO LLEGAR <i class="bi bi-geo-alt-fill"></i>
+        </a>
+      </div>
+    </section>
+    <hr class="divider">
+
+     <!-- Sección Asistencia -->
+     <section class="row my-5">
+      <div class="col d-flex flex-column align-items-center">
+        <img src="assets/image/calendar.png" alt="Calendar">
+        <h1 class="card-title">CONFIRMAR ASISTENCIA</h1>
+        <p class="card-text">
+          Tu presencia es importante para mí,<br>
+          confirma tu asistencia aquí
+        </p>
+        <a class="btn btn-custom mt-3" target="_blank" href="https://wa.me/5493515649126" role="button">
+          WHATSAPP <i class="bi bi-whatsapp"></i>
+        </a>
+      </div>
+    </section>
+    <hr class="divider">
+
+      <!-- Sección Música -->
+      <section class="row my-5">
+        <div class="col d-flex flex-column align-items-center">
+          <img src="assets/image/music.png" alt="Music">
+          <h1 class="card-title">¿ME AYUDAS CON LA MÚSICA?</h1>
+          <p class="card-text">
+            Dejá tu recomendación de esa canción que no puede faltar<br>
+            para que la bailemos juntos esa noche
+          </p>
+          <a class="btn btn-custom mt-3" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfU3SKpY9EvwE0obA3cyJ0nyK4qo76fUUCmwaLzXNF7U8BO5g/viewform" role="button">
+            PLAYLIST <i class="bi bi-music-note-list"></i>
+          </a>
+        </div>
+      </section>
+      <hr class="divider">
+
+      <!-- Sección Instagram -->
+    <section class="row my-5">
+      <div class="col d-flex flex-column align-items-center">
+        <img src="assets/image/instagram.png" alt="Calendar">
+        <h1 class="card-title">MI INSTAGRAM</h1>
+        <h1 class="card-title">@moremonteroo_</h1>
+        <p class="card-text">
+          Seguime en mi cuenta de Instagram <br>
+          y etiquetame en las fotos y videos que tomes<br>
+          en mi fiesta.
+        </p>
+        <a class="btn btn-custom mt-3" target="_blank" href="https://www.instagram.com/moremonteroo_?igsh=MWVzeTRjdGNmNHV4Zg==" role="button">
+          SEGUIME <i class="bi bi-arrow-right-square"></i>
+        </a>
+      </div>
+    </section>
+    <hr class="divider">
+
+    <!-- Sección Dress Code -->
+    <section class="row my-5">
+      <div class="col d-flex flex-column align-items-center">
+        <img src="assets/image/fashion.png" alt="Fashion">
+        <h1 class="card-title">VESTIMENTA</h1>
+        <p class="card-text">Elegante Sport</p>
+      </div>
+    </section>
+
+   
+  </main>
+
+  <!-- Scripts -->
+  <script src="js/countDown.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal().reveal('.row', {
+      origin: 'left',
+      delay: 300,
+      duration: 1000,
+      distance: '0px',
+      opacity: 0
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
