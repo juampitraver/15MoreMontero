@@ -14,8 +14,8 @@ body {
 
 /* Variables para fuentes responsivas */
 :root {
-  --title-size: clamp(2rem, 5vw, 4rem);
-  --date-size: clamp(1rem, 3vw, 2.5rem);
+  --title-size: clamp(4rem, 10vw, 8rem);
+  --date-size: clamp(2rem, 6vw, 5rem);
   --card-title-size: clamp(1.5rem, 3vw, 3rem);
   --card-text-size: clamp(1rem, 2vw, 1.5rem);
 }
